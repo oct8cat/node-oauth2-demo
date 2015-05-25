@@ -1,0 +1,36 @@
+{
+  "name": "oauth2-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.4",
+    "express-session": "^1.11.2",
+    "lodash": "^3.9.2",
+    "oauth2orize": "^1.0.1",
+    "passport": "^0.2.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.7.0",
+    "mocha": "^2.2.5",
+    "supertest": "^1.0.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oct8cat/node-oauth2-demo"
+  },
+  "author": "Tako Neko <oct8cat@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oct8cat/node-oauth2-demo/issues"
+  },
+  "homepage": "https://github.com/oct8cat/node-oauth2-demo"
+}
